@@ -54,9 +54,9 @@ $(document).ready(function(){
         $(".dc-placeholder").prepend(
             "<div class='media'><div class='media-left'><a href='" + dcWebsites[i].url +
             "'><img src='" + dcWebsites[i].img +
-            "'></a></div><div class='media-body'><a href='"+ dcWebsites[i].url +
-            "'><h4 class='media-heading'>" + dcWebsites[i].title +
-            "</h4></a><p class='dc-description'>" + dcWebsites[i].description +
+            "'></a></div><div class='media-body'><h4 class='media-heading'><a href='"+ dcWebsites[i].url +
+            "'>" + dcWebsites[i].title +
+            "</a></h4><p class='dc-description'>" + dcWebsites[i].description +
             "</p></div>"
         );
     };
