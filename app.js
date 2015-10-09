@@ -41,7 +41,7 @@ $(document).ready(function(){
             labels: ["HTML", "CSS", "Bootstrap"]
         },
         {
-            title: "#6 - 30 Day Challenges",
+            title: "#6 - 30-Days Challenge",
             url: "http://ingridtartaglia.github.io/30-day-challenges",
             img: "imgs/day06.png",
             date: "8rd October, 2015",
