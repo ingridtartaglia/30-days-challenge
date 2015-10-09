@@ -42,7 +42,7 @@ $(document).ready(function(){
         },
         {
             title: "#6 - 30-Days Challenge",
-            url: "http://ingridtartaglia.github.io/30-day-challenges",
+            url: "http://ingridtartaglia.github.io/30-days-challenge",
             img: "imgs/day06.png",
             date: "8rd October, 2015",
             description: "This page shows all the webpages made by myself during 30 days.",
