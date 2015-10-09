@@ -1,54 +1,38 @@
-* {
-    color: black;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
+* { font-family: 'Open Sans', sans-serif; }
+
+.jumbotron {
+    padding: 4em 2em;
+    margin: 0 auto;
+    background-color: #800056 !important;
+    color: #e7aad3 !important;
 }
-div h1 {
-    color: #C02942;
-}
-.lead {
-    font-size: 3em;
-}
-a img {
-    border: 1px solid #53777A;
+
+a img { border: 1px solid #e7aad3; }
+
+a { color: #800056 !important; }
+a:focus, a:hover {
+    text-decoration: none !important;
+    color: #e7aad3 !important;
 }
 
 @media screen and (min-width:600px){
-    div.container-fluid {
-        padding: 2em 8em;
-    }
-    div.media {
-        padding-top: 2em;
-    }
-    .media-body {
-        padding-left: 3em;
-    }
     img {
         width: 160px;
         height: 100px;
     }
-    .media-heading {
-        font-size: 1.75em;
-    }
-    .dc-description {
-        font-size: 1.25em;
-    }
+    .dc-row { padding: 3em 0; }
+    .media { padding: 2em 3em; }
+    .media-heading { font-size: 1.75em; }
+    .media-body { padding-left: 3em; }
+    .dc-description {font-size: 1.25em; }
 }
 @media screen and (max-width:600px){
-    div.container-fluid {
-        padding: 1em 2em;
-    }
-    div.media {
-        padding-top: 1em;
-    }
-    .media-body {
-        padding-left: 1em;
-    }
     img {
         width: 100px;
         height: 70px;
     }
-    .media-heading {
-        font-size: 1.5em;
-    }
+    .dc-row { padding: 1em 0; }
+    .media-heading {font-size: 1.5em; }
+    .media { padding: 1em 2em; }
+    .media-body { padding-left: 1em; }
 }

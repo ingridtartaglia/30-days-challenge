@@ -46,13 +46,13 @@ $(document).ready(function(){
             img: "imgs/day06.png",
             date: "8rd October, 2015",
             description: "This page shows all the webpages made by myself during 30 days.",
-            labels: ["HTML", "CSS", "Bootstrap", "jQuery"]
+            labels: ["HTML", "CSS", "Bootstrap", "jQuery", "WOW.js", "Animate.css"]
         },
     ];
 
     for (i = 0; i < dcWebsites.length; i++){
         $(".dc-placeholder").prepend(
-            "<div class='media'><div class='media-left'><a href='" + dcWebsites[i].url +
+            "<div class='media wow fadeIn'><div class='media-left'><a href='" + dcWebsites[i].url +
             "'><img src='" + dcWebsites[i].img +
             "'></a></div><div class='media-body'><h4 class='media-heading'><a href='"+ dcWebsites[i].url +
             "'>" + dcWebsites[i].title +
@@ -61,3 +61,10 @@ $(document).ready(function(){
         );
     };
 });
+
+var wow = new WOW(
+   {
+     offset: 150
+   }
+)
+wow.init();
