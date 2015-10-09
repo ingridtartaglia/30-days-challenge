@@ -1,4 +1,4 @@
-# #6 - 30 Day Challenges
+# #6 - 30-Days Challenge
 ---
 This page shows all the webpages made by myself during 30 days.
 
