@@ -16,12 +16,9 @@ a:focus, a:hover {
 }
 
 @media screen and (min-width:600px){
-    img {
-        width: 160px;
-        height: 100px;
-    }
     .dc-row { padding: 3em 0; }
     .media { padding: 2em 3em; }
+    .media-img { min-width: 180px; }
     .media-heading { font-size: 1.75em; }
     .media-body { padding-left: 3em; }
     .dc-description {font-size: 1.25em; }
