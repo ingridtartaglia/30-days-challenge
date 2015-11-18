@@ -117,7 +117,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/",
             img: "imgs/day15.png",
             date: "17th October, 2015",
-            description: "",
+            description: "Choose and save your colors with this picker.",
             labels: ["HTML", "CSS", "AngularJS"]
         },
         {
