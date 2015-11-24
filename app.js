@@ -13,7 +13,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/fortune-cookie/",
             img: "imgs/day02.png",
             date: "4th October, 2015",
-            description: "Click on the cookie to see your fortune!",
+            description: "Click on the cookie to see your fortune.",
             labels: ["HTML", "CSS", "jQuery", "Animate.css"]
         },
         {
@@ -45,7 +45,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/30-days-challenge",
             img: "imgs/day06.png",
             date: "8th October, 2015",
-            description: "This page shows all the webpages made by myself during 30 days.",
+            description: "This page shows all the webpages made by myself during these 30 days.",
             labels: ["HTML", "CSS", "Bootstrap", "jQuery", "WOW.js", "Animate.css"]
         },
         {
@@ -53,7 +53,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/forecast",
             img: "imgs/day07.png",
             date: "9th October, 2015",
-            description: "Know the current forecast based on your actual location.",
+            description: "See the current forecast based on your location.",
             labels: ["HTML", "CSS", "Bootstrap", "jQuery", "Geolocation API", "Forecast.io API"]
         },
         {
@@ -69,7 +69,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/memory-game",
             img: "imgs/day09.png",
             date: "11st October, 2015",
-            description: "Play this awesome game!",
+            description: "Memorize all these media cards and find their pairs.",
             labels: ["HTML", "CSS", "Bootstrap", "AngularJS", "Lodash"]
         },
         {
@@ -77,7 +77,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/converter",
             img: "imgs/day10.png",
             date: "12nd October, 2015",
-            description: "",
+            description: "Make simple conversions using this tool.",
             labels: ["HTML", "CSS", "AngularJS", "Bootstrap"]
         },
         {
@@ -93,7 +93,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/calculator",
             img: "imgs/day12.png",
             date: "14th October, 2015",
-            description: "",
+            description: "Math never was so easy!",
             labels: ["HTML", "CSS", "AngularJS", "Bootstrap"]
         },
         {
@@ -109,12 +109,12 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/hangman",
             img: "imgs/day14.png",
             date: "16th October, 2015",
-            description: "",
+            description: "Play this awesome game!",
             labels: ["HTML", "CSS", "AngularJS", "Bootstrap"]
         },
         {
             title: "#15 - Color Picker",
-            url: "http://ingridtartaglia.github.io/",
+            url: "http://ingridtartaglia.github.io/color-picker",
             img: "imgs/day15.png",
             date: "17th October, 2015",
             description: "Choose and save your colors with this picker.",
@@ -194,10 +194,10 @@ $(document).ready(function(){
         },
         {
             title: "#25 - Memes",
-            url: "http://ingridtartaglia.github.io/",
+            url: "http://ingridtartaglia.github.io/meme-album/www",
             img: "imgs/day25.png",
             date: "27th October, 2015",
-            description: "",
+            description: "See this meme list in different ways.",
             labels: ["HTML", "SASS", "AngularJS", "Ionic"]
         },
         {
@@ -213,7 +213,7 @@ $(document).ready(function(){
             url: "http://ingridtartaglia.github.io/conference/www",
             img: "imgs/day27.png",
             date: "29th October, 2015",
-            description: "",
+            description: "The most important web conference now in your mobile.",
             labels: ["HTML", "SASS", "AngularJS", "Ionic"]
         },
         {
